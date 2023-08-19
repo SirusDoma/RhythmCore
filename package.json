@@ -1,0 +1,41 @@
+{
+  "name": "me.cxo2.rhythmcore",
+  "version": "1.0.0",
+  "displayName": "Rhythm.Core",
+  "description": "An opinionated micro-framework to bootstrap or prototype your next rhythm game development.\n\nIt offers an agnostic core implementation for a rhythm game with no dependencies, allowing you to develop a diverse range of 2D / 3D rhythm games with any sound engine, input system, serialization library, or any modules of your choice.\r\n\r\nBe it your classical VSRG (Vertical Scrolling Rhythm Game) or venturing into a Non-Standard Rhythm Game, you can always start with Rhythm Core!",
+  "documentationUrl": "https://github.com/SirusDoma/RhythmCore/tree/master/Documentation~/",
+  "changelogUrl": "https://github.com/SirusDoma/RhythmCore/CHANGELOG.md",
+  "licensesUrl": "https://github.com/SirusDoma/RhythmCore/LICENSE.md",
+  "license": " Zlib",
+  "keywords": [
+    "rhythm",
+    "music"
+  ],
+  "author": {
+    "name": "CXO2",
+    "email": "com@cxo2.me",
+    "url": "https://github.com/SirusDoma/"
+  },
+  "samples": [
+    {
+      "displayName": "Standard VSRG",
+      "description": "Contains sample implementation of the Standard Vertical Scrolling Rhythm Game (VSRG)",
+      "path": "Samples~/VSRG"
+    },
+    {
+      "displayName": "Lane-less VSRG",
+      "description": "Contains sample implementation of the Lane-less Vertical Scrolling Rhythm Game (VSRG)",
+      "path": "Samples~/Laneless"
+    },
+    {
+      "displayName": "Non SRG",
+      "description": "Contains sample implementation of the Non Scrolling Rhythm Game",
+      "path": "Samples~/Non-SRG"
+    },
+    {
+      "displayName": "Tempo Change (BPM, Skip & Stop)",
+      "description": "Contains sample implementation of various tempo changes",
+      "path": "Samples~/Tempo"
+    }
+  ]
+}
